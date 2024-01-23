@@ -1,0 +1,91 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    color: black;
+}
+
+/* Sections */
+
+.section1, .section2, .section3, .section4 {
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* PARALLAX*/
+}
+
+.section1 {
+    background-image: url(img/section1.jpeg);
+}
+
+.section2 {
+    background-image: url(img/section2.png);
+}
+
+.section3 {
+    background-image: url(img/section3.jpeg);
+}
+
+.section4 {
+    background-image: url(img/section4.jpg);
+}
+
+/* End Sections */
+
+
+
+/* Content / Title / Footer */
+.title {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    height: 100px;
+}
+
+.title p {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.title a {
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid grey;
+    cursor: pointer
+}
+
+.title a:hover {
+    background-color: black;
+    color: white;
+    transition: 1s
+}
+
+.title span {
+    color: white;
+    background-color: black;
+    padding: 18px;
+    font-size: 2em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.content {
+    color: grey;
+    background-color: whitesmoke;
+    text-align: justify;
+    padding: 50px 100px;
+}
+
+.footer {
+    text-align: center;
+    color: black;
+}
